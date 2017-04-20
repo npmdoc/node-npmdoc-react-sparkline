@@ -1,4 +1,7 @@
-# api documentation for  [react-sparkline (v2.0.0)](https://github.com/KyleAMathews/react-sparkline)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-sparkline.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-sparkline) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-sparkline.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-sparkline)
+# npmdoc-react-sparkline
+
+#### api documentation for  [react-sparkline (v2.0.0)](https://github.com/KyleAMathews/react-sparkline)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-sparkline.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-sparkline) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-sparkline.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-sparkline)
+
 #### React component for rendering simple sparklines with D3
 
 [![NPM](https://nodei.co/npm/react-sparkline.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-sparkline)
@@ -18,16 +21,16 @@
 ```json
 
 {
-    "author": {
-        "name": "Kyle Mathews"
-    },
+    "name": "react-sparkline",
+    "description": "React component for rendering simple sparklines with D3",
+    "version": "2.0.0",
+    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
     "bugs": {
         "url": "https://github.com/KyleAMathews/react-sparkline/issues"
     },
     "dependencies": {
         "d3": "^3.5.6"
     },
-    "description": "React component for rendering simple sparklines with D3",
     "devDependencies": {
         "cjsx-loader": "^2.0.1",
         "coffee-loader": "^0.7.2",
@@ -44,12 +47,6 @@
         "webpack": "^1.12.2",
         "webpack-dev-server": "^1.12.0"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "2a2de9590010bcf339fa3d52c0c16f9dd90dd395",
-        "tarball": "https://registry.npmjs.org/react-sparkline/-/react-sparkline-2.0.0.tgz"
-    },
-    "gitHead": "a9d7c5203d8f240938b9f2288287aaf0478df013",
     "homepage": "https://github.com/KyleAMathews/react-sparkline",
     "keywords": [
         "react",
@@ -59,26 +56,18 @@
     ],
     "license": "MIT",
     "main": "dist/index.js",
-    "maintainers": [
-        {
-            "name": "kylemathews"
-        }
-    ],
-    "name": "react-sparkline",
-    "optionalDependencies": {},
     "peerDependencies": {
         "react": "*",
         "react-dom": "*"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KyleAMathews/react-sparkline.git"
+        "url": "https://github.com/KyleAMathews/react-sparkline.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "watch": "webpack-dev-server --hot"
-    },
-    "version": "2.0.0"
+        "watch": "./node_modules/.bin/webpack-dev-server --hot"
+    }
 }
 ```
 
